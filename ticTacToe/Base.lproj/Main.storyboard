@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="height" constant="80" id="VpS-FD-y4s"/>
                                     <constraint firstAttribute="width" constant="90" id="oGt-2T-o2i"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1AO-h9-ERO"/>
                                 </connections>
@@ -45,7 +45,7 @@
                                     <constraint firstAttribute="height" constant="80" id="a18-AA-a2d"/>
                                     <constraint firstAttribute="width" constant="90" id="pgl-av-M23"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pL5-oO-wGa"/>
                                 </connections>
@@ -56,7 +56,7 @@
                                     <constraint firstAttribute="height" constant="80" id="8UQ-mW-3z4"/>
                                     <constraint firstAttribute="width" constant="90" id="Nov-CA-sza"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ffo-Qb-2A8"/>
                                 </connections>
@@ -67,7 +67,7 @@
                                     <constraint firstAttribute="height" constant="80" id="SM7-no-L8f"/>
                                     <constraint firstAttribute="width" constant="90" id="Swj-bt-doi"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5NF-2Z-Ktg"/>
                                 </connections>
@@ -78,7 +78,7 @@
                                     <constraint firstAttribute="width" constant="90" id="8PB-NL-YYZ"/>
                                     <constraint firstAttribute="height" constant="80" id="XTs-KK-xbL"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WtN-4V-vKJ"/>
                                 </connections>
@@ -89,7 +89,7 @@
                                     <constraint firstAttribute="width" constant="90" id="Jgr-qX-2cM"/>
                                     <constraint firstAttribute="height" constant="80" id="jGp-Gv-gQk"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gP3-NO-6cZ"/>
                                 </connections>
@@ -100,7 +100,7 @@
                                     <constraint firstAttribute="height" constant="80" id="cVt-vf-Wzw"/>
                                     <constraint firstAttribute="width" constant="90" id="jGd-VO-69j"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LVG-PC-7Sl"/>
                                 </connections>
@@ -111,7 +111,7 @@
                                     <constraint firstAttribute="width" constant="90" id="Rp9-vS-Wsy"/>
                                     <constraint firstAttribute="height" constant="80" id="Vp5-h5-QMM"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9aE-bX-SEX"/>
                                 </connections>
@@ -122,7 +122,7 @@
                                     <constraint firstAttribute="width" constant="90" id="Zgz-mh-YXh"/>
                                     <constraint firstAttribute="height" constant="80" id="vcn-WP-bIf"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uag-85-YQ5"/>
                                 </connections>
@@ -160,6 +160,5 @@
     </scenes>
     <resources>
         <image name="board.png" width="744" height="783"/>
-        <image name="nought.png" width="214" height="214"/>
     </resources>
 </document>
