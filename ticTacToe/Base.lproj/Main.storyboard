@@ -127,6 +127,24 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uag-85-YQ5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noughts have won!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZj-qR-pjo">
+                                <rect key="frame" x="58" y="308" width="258" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="Rru-IV-ZWT"/>
+                                    <constraint firstAttribute="width" constant="258" id="mHQ-wy-R6a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.94777828454971313" green="0.05601278692483902" blue="0.24159562587738037" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qeb-BC-yj8">
+                                <rect key="frame" x="152" y="367" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YFp-eC-OOK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -148,10 +166,17 @@
                             <constraint firstItem="O2S-rN-TlZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cjm-ck-343"/>
                             <constraint firstItem="pfR-Gh-Coj" firstAttribute="leading" secondItem="Dn7-lt-Yll" secondAttribute="trailing" constant="36.5" id="gKd-rv-U2L"/>
                             <constraint firstItem="ws4-yV-OhB" firstAttribute="leading" secondItem="EwQ-w0-bkP" secondAttribute="trailing" constant="36.5" id="ihY-Qp-0Mp"/>
+                            <constraint firstItem="eZj-qR-pjo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="imw-4k-VzM"/>
+                            <constraint firstItem="eZj-qR-pjo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tiN-f9-8PW"/>
                             <constraint firstItem="ju1-sv-aHH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wqm-jx-W4c"/>
                             <constraint firstItem="O2S-rN-TlZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xZn-uM-udr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playAgain" destination="Qeb-BC-yj8" id="KdA-So-KhU"/>
+                        <outlet property="playAgainButton" destination="Qeb-BC-yj8" id="TXx-Bh-IpG"/>
+                        <outlet property="winnterLabel" destination="eZj-qR-pjo" id="uCm-3w-XW8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
